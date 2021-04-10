@@ -1,7 +1,7 @@
-pip install streamlit
-pip install numpy
-pip install pandas
-pip install matplotlib
-pip install os
-pip install joblib
-pip install hashlib
+streamlit
+numpy
+pandas
+matplotlib
+os
+joblib
+hashlib
