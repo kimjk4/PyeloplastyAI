@@ -70,16 +70,7 @@ def main():
         st.subheader("Home")
         st.text ("What is pyeloplasty?")
         
-    elif choice == "Login":
-        username = st.sidebar.text_input("User name")
-        password = st.sidebar.text_input("Password", type='password')
-        if st.sidebar.checkbox("Login"):
-            create_usertable()
-            hashed_pswd = generate_hashes(password)
-            result = login_user(username, verify_hashes(password,hashed_pswd))
-            #if password == "SickKidsUrology":
-            if result:
-                st.success("Welcome {}".format(username))
+    
                 
                 activity = st.selectbox("Activity", submenu)
                 if activity == "Prediction":
