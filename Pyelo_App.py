@@ -107,7 +107,7 @@ def main():
                 model_choice = st.selectbox("Select Model", ["SVM"])
                 if st.button("Predict"):
                     if model_choice == "SVM":
-                        loaded_model = load_model(Pickle_SVM_Pyeloplasty2.pkl)
+                        loaded_model = load_model("Pickle_SVM_Pyeloplasty2.pkl")
                         prediction = loaded_model.predict(single_sample)
                         pred_prob = loaded_model.predict_proba(single_sample)
                             
