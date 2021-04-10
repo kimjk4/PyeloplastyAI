@@ -1,5 +1,3 @@
-python -m pip install joblib
-
 #Core Pkgs
 import streamlit as st
 
