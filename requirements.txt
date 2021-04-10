@@ -1,4 +1,3 @@
-conda create --Pyelo_AI.py python=3.7
 pip install streamlit
 pip install numpy
 pip install pandas
