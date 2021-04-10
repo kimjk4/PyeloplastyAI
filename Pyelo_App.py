@@ -62,8 +62,8 @@ def main():
     """Pyeloplasty Failure Prediction App"""
     st.title("Pyeloplasty Failure Prediction App")
     
-    menu = ["Home", "Login", "SignUp"]
-    submenu = ["Prediction", "Metrics"]
+    menu = ["Home"]
+    submenu = ["Prediction"]
     
     choice = st.sidebar.selectbox("Menu", menu)
     if choice == "Home":
