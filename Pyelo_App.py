@@ -68,7 +68,7 @@ def main():
     choice = st.sidebar.selectbox("Menu", menu)
     if choice == "Home":
         st.subheader("Home")
-        st.text ("What is pyeloplasty?")
+        st.text ("What is likelihood of pyeloplasty failure?")
         
     
                 
