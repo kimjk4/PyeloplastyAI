@@ -17,7 +17,7 @@ import matplotlib
 matplotlib.use('Agg')
 
 # DB
-from managed_db import *
+from "managed_db" import *
 
 #Password
 def generate_hashes(password):
