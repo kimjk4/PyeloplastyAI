@@ -73,7 +73,7 @@ def main():
     
                 
         activity = st.selectbox("Activity", submenu)
-                if activity == "Prediction":
+            if activity == "Prediction":
                 st.header("Predictive Analytics")
                     
                 st.subheader ("Patient characteristics")
