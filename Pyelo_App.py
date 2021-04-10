@@ -1,6 +1,3 @@
-pip install streamlit
-pip install networkx
-
 #Core Pkgs
 import streamlit as st
 
